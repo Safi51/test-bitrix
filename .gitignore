@@ -1,0 +1,24 @@
+/bitrix/
+!/bitrix/.settings.php.dist   # если нужно — шаблон настроек
+!/bitrix/php_interface/       # только свои файлы
+/bitrix/php_interface/dbconn.php
+
+/bitrix/cache/
+/bitrix/managed_cache/
+/bitrix/updates/
+/bitrix/backup/
+/upload/
+/local/storage/
+/local/tools/
+
+*.log
+.settings.php
+dbconn.php
+local.php
+
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+/vendor
